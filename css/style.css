@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.ancho{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    padding: 5px;
+}
+header{
+    background-color: #5865F2;
+    padding-top: 10px;
+
+}
+.ancho figure{
+    margin: 0;
+    padding: 0;
+    width: 10%;
+}
+.ancho figure img{
+    width: 100%
+}
+.ancho nav{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-bottom: 10px;
+}
+.ancho nav a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    column-gap: 10px;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 40%;
+    font-weight: bold;
+    border: none;
+    font-size: 0.8rem;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+.hero{
+    background-color: #5865F2;
+}
+.heroo{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.texto{
+    margin: 10px;
+}
+.heroo h1{
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.heroo p{
+    color: white;
+    margin-right: 60px;
+}
+.heroo figure{
+    width: 145%;
+    margin: 0;
+    padding: 0;
+}
+.heroo figure img{
+    width: 100%;
+}
+.titulo{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.seccion2{
+    width: 1200px;
+    margin: auto;
+}
+.story p{
+    margin-top: 20px;
+}
+.imagen2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imagen2 figure{
+    width: 190%;
+}
+.imagen2 figure img{
+    width: 100%;
+}
+.prologue{
+    margin: 40px;
+}
+.chapter-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.chapter{
+    width: 650px;
+}
+.free{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 50px;
+    padding-left: 0;
+}
+.call{
+    width:280px;
+}
+.videos{
+    border: 3px #5865F2 solid;
+    border-radius: 15px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.video{
+    max-width: 600px;
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+.seccion3{
+    background-color: black;
+}
+.video2{
+    background-color:#23272A;
+    width: 1200px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap:50px;
+    padding-bottom: 70px;
+}
+.seccion3-text{
+    padding-top: 0;
+    width: 350px;
+}
+.seccion3-text h2{
+    color: white;
+}
+.seccion3-text p{
+    color: white;
+}
+footer{
+    background-color: #23272A;
+}
+.footerc{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+.logo figure{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+.logo figure img{
+    width: 100%
+}
+.redes nav{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+}
+.redes nav a{
+    color: white;
+    font-size: 0.9rem;
+}

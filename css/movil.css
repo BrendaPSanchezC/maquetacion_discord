@@ -1,7 +1,4 @@
 @media screen and (max-width:480px){
-    body{
-        width: auto;
-    }
     header{
         background-color: black;
         position: sticky;
@@ -89,6 +86,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .chapter-one figure{
+        width: 90%;
+    }
+    .chapter-one figure img{
+        width: 100%;
     }
     .chapter{
         width: auto;

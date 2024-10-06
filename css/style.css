@@ -55,6 +55,9 @@ header{
     align-items: center;
     padding: 5px 10px;
 }
+.menu{
+    display: none;
+}
 .hero{
     background-color: #5865F2;
 }
